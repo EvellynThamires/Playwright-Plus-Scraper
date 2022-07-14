@@ -1,0 +1,22 @@
+{
+  "name": "playwright-scraping",
+  "version": "1.0.0",
+  "description": "Learning Web scraping with Playwright",
+  "main": "index.js",
+  "scripts": {
+    "scraper": "node scraper.ts",
+    "scraper:3": "for %i in (1,1,3) do node scraper.ts"
+  },
+  "keywords": [
+    "Web",
+    "Scraping",
+    "Playwright"
+  ],
+  "author": "Evellyn",
+  "license": "ISC",
+  "dependencies": {
+    "playwright": "^1.23.3",
+    "prettier": "^2.7.1",
+    "random-useragent": "^0.5.0"
+  }
+}
